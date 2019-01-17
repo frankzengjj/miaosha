@@ -1,0 +1,5 @@
+com/miaoshaproject/dataobject/UserPasswordDO.class
+com/miaoshaproject/App.class
+com/miaoshaproject/dao/UserPasswordDOMapper.class
+com/miaoshaproject/dataobject/UserDO.class
+com/miaoshaproject/dao/UserDOMapper.class
