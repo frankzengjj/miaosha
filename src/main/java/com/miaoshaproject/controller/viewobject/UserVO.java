@@ -1,25 +1,13 @@
-package com.miaoshaproject.service.model;
+package com.miaoshaproject.controller.viewobject;
 
 import com.sun.tools.corba.se.idl.InterfaceGen;
 
-public class UserModel {
+public class UserVO {
     private Integer id;
     private String name;
     private Byte gender;
     private Integer age;
     private String telephone;
-    private String registerMode;
-    private String thirdPartyId;
-
-    private String encprtPassword;
-
-    public String getEncprtPassword() {
-        return encprtPassword;
-    }
-
-    public void setEncprtPassword(String encprtPassword) {
-        this.encprtPassword = encprtPassword;
-    }
 
     public Integer getId() {
         return id;
@@ -59,21 +47,5 @@ public class UserModel {
 
     public void setTelephone(String telephone) {
         this.telephone = telephone;
-    }
-
-    public String getRegisterMode() {
-        return registerMode;
-    }
-
-    public void setRegisterMode(String registerMode) {
-        this.registerMode = registerMode;
-    }
-
-    public String getThirdPartyId() {
-        return thirdPartyId;
-    }
-
-    public void setThirdPartyId(String thirdPartyId) {
-        this.thirdPartyId = thirdPartyId;
     }
 }
